@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar ul li a.active {
+    color: #007bff;
+}
+
+nav {
+    background-color: #F5F7F8;
+    color: #231f20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #231f20;
+
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2.5px;
+    width: 100%;
+    left: 0;
+    background-color: #3e64ff;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+}
+
+nav a:hover::after {
+    transform: scale(1);
+}
+
+nav button {
+    background-color: #007bff;
+    border: none;
+    color: #f2f4f3;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+nav button:hover {
+    background-color: #3e64ff;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.logo-background {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10px;
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+    color: #192655;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: relative;
+    z-index: 2;
+}
+/* End of Navigation bar styles */
+
+
+/* Photo Gallery */
+.gallery {
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+}
+
+.v-stretch {
+    grid-row: span 2;
+}
+
+.h-stretch {
+    grid-column: span 2;
+}
+
+.big-stretch {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.gallery div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.common-section-label>p {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Photo End */
+
+/* hobbies */
+.gallrey-sec2 {
+    background-color: #F5F7F8;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.skating {
+    display: flex;
+    align-items: center;
+}
+
+.skating img {
+    max-width: 400px;
+    height: auto;
+}
+
+.skating .desc {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 25px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.skating header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e64ff;
+}
+
+.skating p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+    color: #000000;
+
+}
+
+.traveling {
+    display: flex;
+    align-items: center;
+}
+
+.traveling img {
+    max-width: 400px;
+    height: auto;
+}
+
+.traveling .desc {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.traveling header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e64ff;
+}
+
+.traveling p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+    color: #000000;
+
+}
+
+.movies {
+    display: flex;
+    align-items: center;
+}
+
+.movies img {
+    max-width: 400px;
+    height: auto;
+}
+
+.movies .desc {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 25px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.movies header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e64ff;
+}
+
+.movies p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+    color: #000000;
+}
+/* Hobbies End */
+
+
+/* Video Gallery */
+.video-container1 {
+    padding: 0 110px;
+}
+
+.video-container2 {
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 50%;
+    height: 500px;
+}
+
+.about-skating {
+    font-size: 20px;
+}
+
+iframe {
+    border: none;
+}
+/* Video Gallery End */
+
+
+/*Footer Style */
+footer {
+    background-color: #000000;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #999999;
+    background: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.icon img {
+    margin: 10px;
+}
+
+footer p {
+    color: #999999;
+}
+/* Footer Style End */
+
+
+
+/* Media Queries */
+@media (max-width: 800px) {
+    /* Photo Gallery */
+    .v-stretch {
+        grid-row: span 1;
+    }
+
+    .h-stretch {
+        grid-column: span 1;
+    }
+
+    .big-stretch {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .common-section-label p {
+        text-align: center;
+    }
+    /* Photo Gallery End */
+
+
+    /* Navigation bar styles */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav button {
+        margin: 10px 0;
+    }
+
+    ul li button {
+        margin-right: 40px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .logo-background {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .text {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #192655;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    /* End of Navigation bar styles */
+
+    /* Hobbies */
+    .skating {
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .skating img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .skating .desc {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .video-container1 {
+        padding: 0 20px;
+    }
+
+    .traveling {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .traveling img {
+        margin: 0 auto;
+        display: block;
+        order: 1;
+    }
+
+    .traveling .desc {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+        order: 2;
+    }
+
+    .movies {
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .movies img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .movies .desc {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* Hobbies End */
+}

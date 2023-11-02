@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar ul li a.active {
+    color: #007bff;
+}
+
+
+nav {
+    background-color: #F5F7F8;
+    color: #231f20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    height: 80px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #231f20;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2.5px;
+    width: 100%;
+    left: 0;
+    background-color: #3e64ff;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+
+}
+
+nav a:hover::after {
+    transform: scale(1);
+}
+
+nav button {
+    background-color: #007bff;
+    border: none;
+    color: #f2f4f3;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+nav button:hover {
+    background-color: #3e64ff;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.logo-background {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10px;
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+    color: #192655;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: relative;
+    z-index: 2;
+
+}
+/* End of Navigation bar styles */
+
+
+
+
+/* Main About Me */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+
+.profile-image {
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+
+}
+
+.intro-content {
+    margin-left: 35px;
+}
+
+header {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #3e64ff;
+    font-size: 35px;
+}
+
+.about-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-info li {
+    margin-bottom: 20px;
+}
+
+.about-info li span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.last-span {
+    color: #777777;
+}
+
+/* End of Main About Me */
+
+
+/* education intro */
+.education-intro {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin: 20px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.education-content {
+    flex: 1;
+    margin-left: 35px;
+}
+
+.item1 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.education-item p {
+    line-height: 0.7;
+
+}
+
+.education-item h3 {
+    color: #3e64ff;
+}
+
+.education {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p strong {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.education-item .institute {
+    font-size: 20px;
+}
+
+.last-para {
+    font-size: 17px;
+    color: #777777;
+}
+/* End of education intro */
+
+/* Skills */
+.skills {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.skills-heading {
+    font-size: 45px;
+    color: #3e64ff;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    margin-bottom: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-name span {
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+.skill-bar {
+    background-color: #ccc;
+    height: 14px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.skill-progress {
+    height: 100%;
+    border-radius: 6px;
+    background-color: #007bff;
+}
+/* Skill End */
+
+/* Footer Style Start */
+footer {
+    background-color: #000000;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #999999;
+    background: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.icon img {
+    margin: 10px;
+}
+
+footer p {
+    color: #999999;
+}
+/* Footer Style End */
+
+
+
+
+/* Media querires */
+
+@media (max-width: 800px) {
+
+    /* Navigation bar styles */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav button {
+        margin: 10px 0;
+
+    }
+
+    ul li button {
+        margin-right: 40px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .logo-background {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .text {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #192655;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    /* End of Navigation bar styles */
+
+
+    /* About Me */
+    .about-info li span {
+        font-weight: bold;
+        font-size: 11px;
+    }
+    /* About Me end */
+
+    /* Education */
+    p strong {
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    .education-item .institute {
+        font-size: 12px;
+    }
+
+    .education-item p {
+        line-height: 1.2;
+    }
+
+    .last-para {
+        font-size: 12px;
+        color: #777777;
+    }
+    /* Education end */
+
+}
