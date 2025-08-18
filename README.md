@@ -15,7 +15,7 @@ It showcases my projects, skills, and professional background with a modern, res
 
 👨‍💻 About Me Section – Highlights skills and experience.
 
-📧 Contact Section – Easy way to get in touch.
+📧 Contact Section – Yet to built.
 
 ⚡ Lightweight & Fast – Pure HTML and CSS, no frameworks required.
 
