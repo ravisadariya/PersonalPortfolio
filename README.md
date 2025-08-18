@@ -5,7 +5,7 @@ It showcases my projects, skills, and professional background with a modern, res
 
 🚀 Live Demo
 
-👉 Visit My Portfolio
+👉 http://ravisadariya.netlify.app/
 
 ✨ Features
 
