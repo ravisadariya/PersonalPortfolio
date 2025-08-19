@@ -1,28 +1,38 @@
-🌐 Personal Portfolio - Ravi Sadariya
+Got it 👍 I’ll reformat your text into the **same professional README style** as before, keeping everything consistent and well-structured.
 
-This is my personal portfolio website, built using only HTML5 and CSS3.
-It showcases my projects, skills, and professional background with a modern, responsive design.
+Here’s the cleaned-up version:
 
-🚀 Live Demo
+---
 
-👉 http://ravisadariya.netlify.app/
+# 🌐 Personal Portfolio - Ravi Sadariya
 
-✨ Features
+This is my **personal portfolio website**, built using only **HTML5 and CSS3**.
+It showcases my projects, skills, and professional background with a **modern, responsive design**.
 
-📱 Responsive Layout – Optimized for desktop, tablet, and mobile devices.
+---
 
-🖼️ Project Showcase – Displays selected projects with descriptions.
+## 🚀 Live Demo
 
-👨‍💻 About Me Section – Highlights skills and experience.
+👉 [Visit My Portfolio](http://ravisadariya.netlify.app/)
 
-📧 Contact Section – Yet to built.
+---
 
-⚡ Lightweight & Fast – Pure HTML and CSS, no frameworks required.
+## ✨ Features
 
-🛠️ Tech Stack
+* 📱 **Responsive Layout** – Optimized for desktop, tablet, and mobile devices.
+* 🖼️ **Project Showcase** – Displays selected projects with descriptions.
+* 👨‍💻 **About Me Section** – Highlights skills and experience.
+* 📧 **Contact Section** – Yet to be built.
+* ⚡ **Lightweight & Fast** – Pure HTML and CSS, no frameworks required.
 
-HTML5
+---
 
-CSS3
+## 🛠️ Tech Stack
 
-Netlify (Deployment)
+* **HTML5**
+* **CSS3**
+* **Netlify (Deployment)**
+
+---
+
+Do you want me to also **add setup instructions** (like "Clone repo and open `index.html` in browser") at the end, or keep it short since it’s a simple HTML/CSS site?
