@@ -1,7 +1,3 @@
-Got it 👍 I’ll reformat your text into the **same professional README style** as before, keeping everything consistent and well-structured.
-
-Here’s the cleaned-up version:
-
 ---
 
 # 🌐 Personal Portfolio - Ravi Sadariya
@@ -34,5 +30,3 @@ It showcases my projects, skills, and professional background with a **modern, r
 * **Netlify (Deployment)**
 
 ---
-
-Do you want me to also **add setup instructions** (like "Clone repo and open `index.html` in browser") at the end, or keep it short since it’s a simple HTML/CSS site?
