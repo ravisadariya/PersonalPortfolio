@@ -1,5 +1,3 @@
----
-
 # 🌐 Personal Portfolio - Ravi Sadariya
 
 This is my **personal portfolio website**, built using only **HTML5 and CSS3**.
@@ -28,5 +26,3 @@ It showcases my projects, skills, and professional background with a **modern, r
 * **HTML5**
 * **CSS3**
 * **Netlify (Deployment)**
-
----
