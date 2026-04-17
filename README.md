@@ -1,28 +1,43 @@
 # 🌐 Personal Portfolio - Ravi Sadariya
 
-This is my **personal portfolio website**, built using only **HTML5 and CSS3**.
-It showcases my projects, skills, and professional background with a **modern, responsive design**.
+## 📌 Overview
+This is my personal portfolio website built using HTML5 and CSS3. It showcases my projects, technical skills, and background with a clean, modern, and responsive design. The goal of this project is to present my work in a professional and accessible way.
 
 ---
 
-## 🚀 Live Demo
-
-👉 [Visit My Portfolio](http://ravisadariya.netlify.app/)
+## 🛠 Tech Stack
+- HTML5  
+- CSS3  
+- Netlify (Deployment)  
 
 ---
 
 ## ✨ Features
-
-* 📱 **Responsive Layout** – Optimized for desktop, tablet, and mobile devices.
-* 🖼️ **Project Showcase** – Displays selected projects with descriptions.
-* 👨‍💻 **About Me Section** – Highlights skills and experience.
-* 📧 **Contact Section** – Yet to be built.
-* ⚡ **Lightweight & Fast** – Pure HTML and CSS, no frameworks required.
+- 📱 Responsive design optimized for desktop, tablet, and mobile  
+- 🖼️ Project showcase with descriptions  
+- 👨‍💻 About Me section highlighting skills and experience  
+- ⚡ Lightweight and fast performance (no frameworks used)  
+- 🎯 Clean and modern UI  
 
 ---
 
-## 🛠️ Tech Stack
+## 📸 Screenshots
+(Add screenshots here — homepage, project section, etc.)
 
-* **HTML5**
-* **CSS3**
-* **Netlify (Deployment)**
+---
+
+## 🚀 Live Demo
+🔗 [Ravi Sadariya](https://ravisadariya.netlify.app)
+
+---
+
+## 📂 GitHub Repository
+🔗 https://github.com/ravisadariya/PersonalPortfolio
+
+---
+
+## ⚙️ Installation & Setup
+```bash
+git clone https://github.com/ravisadariya/PersonalPortfolio.git
+cd PersonalPortfolio
+open index.html
