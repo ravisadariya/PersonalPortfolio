@@ -17,22 +17,12 @@ This is my personal portfolio website built using HTML5 and CSS3. It showcases m
 - 🖼️ Project showcase with descriptions  
 - 👨‍💻 About Me section highlighting skills and experience  
 - ⚡ Lightweight and fast performance (no frameworks used)  
-- 🎯 Clean and modern UI  
-
----
-
-## 📸 Screenshots
-(Add screenshots here — homepage, project section, etc.)
+- 🎯 Clean and modern UI
 
 ---
 
 ## 🚀 Live Demo
 🔗 [Ravi Sadariya](https://ravisadariya.netlify.app)
-
----
-
-## 📂 GitHub Repository
-🔗 https://github.com/ravisadariya/PersonalPortfolio
 
 ---
 
